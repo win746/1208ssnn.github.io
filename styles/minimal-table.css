@@ -65,3 +65,89 @@ caption {
   padding: 10px;
 }
   
+  	/* Style the links inside the sidenav */
+#mySidenav a {
+  position: fixed; /* Position them relative to the browser window */
+  left: -190px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 205px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 0px 10px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+  top: 20px;
+  background-color: #04AA6D; /* green */
+}
+
+#technology {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#opportunities {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#risks {
+  top: 200px;
+  background-color: #555 /* Light Black */
+}
+
+#choices {
+  top: 260px;
+  background-color: #F9A602;  /* gold */
+}
+
+#ethical {
+  top: 320px;
+  background-color: #532D84; /* purple */
+}
+
+#references {
+  top: 380px;
+  background-color: #662B00; /* Red */
+}
+
+#process {
+  top: 440px;
+  background-color: #FE5BAC /* Light Black */
+}
+
+#meeting {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#project {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#team {
+  top: 200px;
+  background-color: #555 /* Light Black */
+}
+
+#peer {
+  top: 260px;
+  background-color: #F9A602;  /* gold */
+}
+
+#assessment {
+  top: 320px;
+  background-color: #532D84; /* purple */
+}
+
+#guideline {
+  top: 380px;
+  background-color: #662B00; /* Red */
