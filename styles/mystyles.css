@@ -34,9 +34,10 @@
 	
 	.bg-img {
   /* The image used */
-  background-image: url("../images/front_image.jpg");
+  background-image: url("../images/front_image.PNG");
 
-  min-height: 600px;
+  min-height: 707.1px;
+ 
 
   /* Center and scale the image nicely */
   background-position: center;
