@@ -1,6 +1,9 @@
   
-  body {
- 
+ /* body {
+  padding-left: 11em;
+   font-family: Georgia, "Times New Roman",
+          Times, serif;
+		  color: purple;
     background-color:  }
 	/* ul.navbar {
     list-style-type: none;
@@ -29,26 +32,13 @@
     padding-top: 1em;
     border-top: thin dotted }
 	*/
-	.bg-img {
-  /* The image used */
-  background-image: url("../images/front_image1.jpg");
+	
 
-  min-height: 699px;
- 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  /* Needed to position the navbar */
-  position: relative;
-}
 	
 	/* Style the links inside the sidenav */
 #mySidenav a {
   position: fixed; /* Position them relative to the browser window */
-  left: -200px; /* Position them outside of the screen */
+  left: -180px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
   width: 205px; /* Set a specific width */
@@ -131,8 +121,67 @@
 #guideline {
   top: 380px;
   background-color: #662B00; /* Red */
-	
+}
 
-	
-	
-	
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 50px;
+  background: #f1f1f1;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  /*background-color: #aaa;*/
+  width: 50%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
