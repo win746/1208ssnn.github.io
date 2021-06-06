@@ -131,8 +131,18 @@
 #guideline {
   top: 380px;
   background-color: #662B00; /* Red */
-	
+}	
 
 	
-	
-	
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.text{   
+  float: left;
+  width: 90%;
+  padding-left: 40px;
+}
+
+
