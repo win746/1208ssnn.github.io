@@ -92,6 +92,10 @@
   top: 440px;
   background-color: #FE5BAC /* Light Black */
 }
+#process1 {
+  top: 500px;
+  background-color: #FE5BAC /* Light Black */
+}
 
 #meeting {
   top: 80px;
@@ -108,20 +112,31 @@
   background-color: #555 /* Light Black */
 }
 
-#peer {
+#team {
+  top: 200px;
+  background-color: #555 /* Light Black */
+}
+#topic {
   top: 260px;
+  background-color: #009999;  /* gold */
+}
+
+#peer {
+  top: 320px;
   background-color: #F9A602;  /* gold */
 }
 
 #assessment {
-  top: 320px;
+  top: 380px;
   background-color: #532D84; /* purple */
 }
 
 #guideline {
-  top: 380px;
+  top: 440px;
   background-color: #662B00; /* Red */
-}
+}	
+
+	
 
 
 * {
